@@ -1,0 +1,5 @@
+[
+  { "query": "appium python client", "expected_contains": "appium" },
+  { "query": "google chrome android testing", "expected_contains": "chrome" },
+  { "query": "page object model", "expected_contains": "page object" }
+]
