@@ -13,7 +13,7 @@ from utils.driver_manager import DriverManager
 
 @pytest.fixture(scope="function")
 def driver():
-    """Provides a fresh Appium driver session per test, quits after."""
+    """Provides a fresh Appium driver session per test, then quits after."""
     drv = DriverManager.get_driver()
     yield drv
     DriverManager.quit_driver()
